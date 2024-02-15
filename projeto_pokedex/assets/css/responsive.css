@@ -1,0 +1,70 @@
+@media screen and (max-width: 350px) {
+    main .titulo {
+        max-width: 350px;
+        margin: 1rem auto;
+    }
+
+    .content {
+        max-width: 350px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .content .lista_pokemons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }   
+
+    .content .lista_pokemons .pokemon {
+        max-width: 290px;
+    }
+
+}
+
+@media screen and (min-width: 750px) {
+    
+    main .titulo {
+        max-width: 750px;
+        margin: 1rem auto;
+    }
+
+    .content {
+        max-width: 750px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .content .lista_pokemons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+
+    .content .lista_pokemons .pokemon {
+        max-width: 100vh;
+
+}
+
+@media screen and (min-width: 1020px) {
+    
+    main .titulo {
+        max-width: 1020px;
+        margin: 1rem auto;
+    }
+
+    .content {
+        max-width: 1020px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .content .lista_pokemons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }   
+
+    .content .lista_pokemons .pokemon {
+        max-width: 100vh;
+    }
+
+}
+}
